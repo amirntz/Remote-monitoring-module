@@ -1,0 +1,44 @@
+body{background-color: lightgray;}
+
+@media(min-width:481px){
+
+header{
+    background-color: rgb(175, 173, 173);border: solid gray 1px;border-radius: 5px;height: 100px;margin: 4px;
+position: relative;}
+#main{
+    background-color: rgb(182, 182, 182); border: solid gray 1px;border-radius: 5px;height: 440px;margin: 4px;
+    position: relative; }
+footer{
+    background-color: rgb(175, 173, 173);border: solid gray 1px;border-radius: 5px;height: 40px;margin: 4px;}
+h1{margin-left: 5px;position: absolute;top: 25px;margin: 5px;}
+
+#logo{height: 80px;margin: 10px;position: absolute;right:0px ;border-radius: 5px ;}
+
+.device{height: 80px;width:10%;margin: 20px;border: solid gray 2px;display: grid;place-items: center;}
+
+#display{height: 400px; width: 80%;position: absolute;right: 5px; top:8px ; border: solid gray 1px;border-radius: 5px;
+         background-color: rgb(190, 190, 190);margin: 10px;}
+
+}
+
+
+
+
+@media(max-width:531px){
+header{
+    background-color: rgb(175, 173, 173);border: solid gray 1px;border-radius: 5px;height: 100px;margin: 4px;
+    position: relative;
+    display: grid;
+    place-items: center;}
+#main{
+    background-color: rgb(182, 182, 182); border: solid gray 1px;border-radius: 5px;height: 630px;margin: 4px;
+    display: grid;place-items: center; }
+footer{
+    background-color: rgb(175, 173, 173);border: solid gray 1px;border-radius: 5px;height: 40px;margin: 4px;}
+
+h1{font-size:1.2em;position: absolute;top: 70px;margin: 2px;text-align: center;}
+#logo{height: 65px;margin: 2px;position: absolute;top: 1px;border-radius: 5px;}
+.device{height: 130px;width: 90%;margin: 5px;border: solid gray 2px;display: grid;place-items: center;}
+#display{visibility: hidden;}
+}
+
